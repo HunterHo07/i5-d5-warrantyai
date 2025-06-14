@@ -1,36 +1,93 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# WarrantyAI - Smart Warranty & Asset Management Platform
 
-## Getting Started
+## 🚀 Overview
 
-First, run the development server:
+WarrantyAI is a futuristic MVP simulation platform that revolutionizes how people track, manage, and visualize their warranties, assets, and coverage across all categories - from electronics and appliances to vehicles and even food freshness.
+
+## ✨ Key Features
+
+### 🤖 AI-Powered Tracking
+- **Smart Receipt Scanning**: Upload receipts, invoices, or photos for automatic AI extraction
+- **Email Integration**: Auto-detect warranty information from Gmail and shopping emails
+- **Product Recognition**: AI identifies products, brands, serial numbers, and warranty dates
+
+### 📱 Multi-Platform Experience
+- **Web Dashboard**: Comprehensive warranty management interface
+- **Mobile-Ready**: iOS and Android optimized experience
+- **3D/AR Inventory**: Visualize your assets in virtual rooms
+- **QR Code Integration**: Instant asset identification and information access
+
+### 🏠 Complete Asset Coverage
+- **Electronics**: Phones, laptops, TVs, gaming consoles
+- **Home Appliances**: AC units, refrigerators, washing machines
+- **Vehicles**: Cars, motorcycles, Tesla and electric vehicles
+- **Home Items**: Furniture, tools, and household equipment
+- **Food & Perishables**: Smart expiration tracking
+
+### 🔮 Advanced Visualization
+- **3D Asset Library**: Real-world items with detailed warranty information
+- **VR/AR Rooms**: Room-by-room asset management and visualization
+- **Interactive Demos**: Live warranty tracking simulations
+- **Parallax Interfaces**: Futuristic, AI-themed user experience
+
+## 🛠️ Technology Stack
+
+- **Frontend**: Next.js 14, TypeScript, Tailwind CSS 3.4.1
+- **Animations**: GSAP with ScrollTrigger for parallax effects
+- **3D/VR**: Three.js, Phaser3 for immersive experiences
+- **Mobile**: Responsive design with mobile simulation windows
+- **QR Codes**: Integrated QR generation and scanning
+- **AI Simulation**: Real-time warranty processing demos
+
+## 🎯 Target Audience
+
+- **Consumers**: Everyday families and homeowners
+- **Tech Users**: E-commerce buyers and tech enthusiasts
+- **Businesses**: SMBs managing multiple assets
+- **Investors**: Seeking innovative asset management solutions
+
+## 💰 Business Model
+
+- **Free Tier**: Manual upload, basic tracking, limited reminders
+- **Pro Tier**: Auto-import, advanced alerts, AR/3D inventory
+- **Business API**: Product warranty sync, verification tools
+
+## 🚀 Getting Started
 
 ```bash
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Build for production
+npm run build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📋 Development Status
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This is a comprehensive MVP with:
+- ✅ Fully functional demo pages
+- ✅ Mobile and desktop responsive design
+- ✅ 3D asset visualization
+- ✅ QR code integration
+- ✅ AI-powered warranty simulation
+- ✅ Investor-ready pitch materials
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🌟 Competitive Advantage
 
-## Learn More
+- **Unified Platform**: First to combine warranty + service + AR/3D + AI
+- **Visual Inventory**: Revolutionary 3D/AR asset management
+- **Smart Guidance**: Not just tracking, but claim assistance and lifecycle management
+- **Privacy-First**: Secure ownership proof for Web3/metaverse future
 
-To learn more about Next.js, take a look at the following resources:
+## 📞 Contact & Demo
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Experience the future of warranty management with our interactive demo featuring real-world simulations, mobile experiences, and 3D asset visualization.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**Tagline**: "Never miss a warranty again. Own smart. Live smart."
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+*Built with ❤️ for smarter ownership management*
